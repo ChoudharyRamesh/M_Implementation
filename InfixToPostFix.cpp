@@ -2,7 +2,7 @@
 #include<QDebug>
 #include<QStack>
 
-bool isValidExpression(const QString & expression);
+bool isValidExpression(const QString & expression );
 QString infixToPostFix(const QString & infixString,bool & ok);
 
 QMap<QChar,int> operatorsPrecedenceMap({
